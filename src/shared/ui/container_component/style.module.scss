@@ -1,0 +1,29 @@
+@import "@gstyle/mixin";
+@import "@gstyle/variables";
+
+
+.container {
+  max-width: 1220px;
+  width: 100%;
+  margin: auto;
+  padding: 0 10px;
+  @include adaptive("md"){
+    padding: 0;
+    max-width: 940px;
+  }
+  @include adaptive("sm"){
+    max-width: 620px;
+  }
+  @include adaptive("xsm"){
+    max-width: 460px;
+  }
+  @include adaptive("xxsm"){
+    padding: 0 10px;
+    max-width: 350px;
+  }
+
+  &_expanded {
+    max-width: 1680px;
+
+  }
+}

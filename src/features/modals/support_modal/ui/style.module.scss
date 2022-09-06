@@ -1,0 +1,114 @@
+.modal_body {
+  max-width: 500px;
+  &_input {
+    margin-top: 20px;
+  }
+
+  h4 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #423A3A;
+    text-align: center;
+  }
+
+  & > p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+
+    text-align: center;
+
+    color: #423A3A;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  & > span {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    display: inline-block;
+    /* or 133% */
+
+    text-align: center;
+
+    color: #666666;
+  }
+
+  &_button {
+
+    &_wrapper {
+      margin: 20px 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    p {
+      margin-top: 0;
+      margin-bottom: 0;
+      color:white;
+
+    }
+  }
+}
+
+.file {
+  margin-top: 20px;
+  & > span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+
+
+    color: #666666;
+  }
+  textarea {
+    display: block;
+    margin-top: 14px;
+    width: 100%;
+    background: #F9FCFF;
+    border: 1px solid rgba(68, 86, 102, 0.45);
+    border-radius: 7px;
+    padding: 15px ;
+    resize: none;
+    outline: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+  }
+}
+
+.showFile {
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: space-between;
+  p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    /* identical to box height, or 133% */
+
+
+    color: #666666;
+  }
+  button {
+    background: #AED9FF;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+
+    color: #414770;
+  }
+}

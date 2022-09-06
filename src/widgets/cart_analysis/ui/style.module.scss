@@ -1,0 +1,37 @@
+@import "@gstyle/mixin.scss";
+
+.analysis {
+  margin-top: 10px;
+
+  &_list {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    -ms-overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: #AED9FF #AED9FF;
+    padding-right: 15px;
+
+    @include adaptive("xsm") {
+      position: static;
+      padding-right: 0 !important;
+    }
+  }
+}
+
+.analysis_wrapper {
+  padding: 10px;
+  padding-top: 0;
+  border: 1px solid #FFE8F0;
+  border-radius: 8px;
+  margin: 10px 0;
+
+  & > div {
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+}

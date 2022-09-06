@@ -1,0 +1,49 @@
+@import "@gstyle/mixin.scss";
+
+.body {
+  max-width: 1050px;
+  width: 100%;
+  &_header {
+    input {
+      display: block;
+      width: 400px;
+
+      @include adaptive("xsm"){
+        width: 300px;
+      }
+      @include adaptive("xxsm"){
+        width: 250px;
+      }
+    }
+  }
+}
+
+.content {
+  padding: 30px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.letters, .cities {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-top: -25px;
+  div {
+    margin-left: 15px;
+    margin-top: 15px;
+  }
+}
+
+.cities {
+  margin-top: 5px;
+  margin-left: -20px;
+  div {
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  p {
+    color: #0187FC;
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,23 @@
+@import "@gstyle/variables";
+@import "@gstyle/mixin";
+
+.link_container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 22px 0 26px 0;
+  @include adaptive("sm"){
+    display: none;
+  }
+  a {
+    color: $black;
+    font-size: 20px;
+    text-decoration: none;
+    @include adaptive("md"){
+      font-size: 16px;
+    }
+    &.pink {
+      color: #ff006f;
+    }
+  }
+}

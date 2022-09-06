@@ -1,0 +1,116 @@
+@import "@gstyle/mixin";
+@import "@gstyle/variables";
+
+.banner_container {
+  width: 100%;
+  height: 480px;
+  @include adaptive("md"){
+    height: 330px;
+  }
+  @include adaptive("sm"){
+    height: 240px;
+  }
+  @include adaptive("xsm"){
+    height: 186px;
+  }
+  @include adaptive("xxsm"){
+    height: 162px;
+  }
+  background-image: linear-gradient(205deg, rgba(0,136,255,.7) 0%, rgba(255,66,134,.7) 100%);
+  background-position: center center;
+  border-style: solid;
+
+  &_banner_body {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+  }
+
+  &_leftside, &_rightside {
+    height: 100%;
+  }
+
+  &_leftside {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    color: $white;
+
+    &_title, &_subtitle {
+      line-height: 115%;
+    }
+
+    &_title {
+      font-size: 45px;
+      font-weight: 700;
+
+      @include adaptive("md"){
+        font-size: 39px;
+      }
+
+      @include adaptive("sm"){
+        font-size: 23px;
+      }
+
+      @include adaptive("xsm"){
+        font-size: 20px;
+      }
+
+      @include adaptive("xxsm"){
+        font-size: 14px;
+      }
+    }
+
+    &_subtitle {
+      font-size: 32px;
+      margin: 50px 0;
+
+      @include adaptive("md"){
+        font-size: 25px;
+        margin: 10px 0 30px 0;
+      }
+
+      @include adaptive("sm"){
+        font-size: 18px;
+        margin: 15px 0 10px 0;
+      }
+      @include adaptive("xsm"){
+        font-size: 13px;
+      }
+
+      @include adaptive("xxsm"){
+        font-size: 10px;
+      }
+    }
+
+    &_buttons {
+      button  {
+        font-size: 23px;
+        @include adaptive("xxsm"){
+          font-size: 18px;
+        }
+      }
+      a {
+        display: inline-block;
+        &:nth-child(2){
+          margin-left: 18px;
+          @include adaptive("xxsm"){
+            margin-left: 0;
+            margin-top: 10px;
+          }
+        }
+      }
+    }
+  }
+
+  &_rightside {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+
+    img {
+      height: 95%;
+    }
+  }
+}

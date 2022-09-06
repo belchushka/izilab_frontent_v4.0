@@ -1,0 +1,48 @@
+@import "@gstyle/mixin";
+
+.floating{
+  position: fixed;
+  bottom: 50px;
+  padding: 0 20px;
+  right: 0;
+  min-width: 300px;
+  z-index: 900;
+  @include adaptive("xsm"){
+    width: 100%;
+    right: 0;
+    left: 0;
+    bottom: 20px;
+  }
+}
+
+.header {
+  margin-bottom: 80px;
+  margin-top: 30px;
+
+  &_large {
+    font-size: 50px;
+    margin-bottom: 20px;
+    @include adaptive("xxsm"){
+      font-size: 40px;
+    }
+  }
+  &_progress_wrapper {
+    max-width: 650px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 0 30px;
+
+    @include adaptive("sm"){
+      max-width: 480px;
+    }
+    @include adaptive("xsm"){
+      max-width: 380px;
+    }
+    @include adaptive("xxsm"){
+      max-width: 280px;
+    }
+  }
+}
+
+
+

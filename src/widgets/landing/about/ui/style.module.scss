@@ -1,0 +1,53 @@
+@import "@gstyle/mixin";
+
+.container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  &_section {
+    &:first-child {
+      width: 48%;
+      @include adaptive("xsm"){
+        width: 100%;
+      }
+      p {
+        color: #3d3d3d;
+        font-size: 20px;
+        font-family: 'Arial',Arial,sans-serif;
+        line-height: 1.55;
+        font-weight: 400;
+        margin-top: 40px;
+
+        @include adaptive("md"){
+          font-size: 18px;
+        }
+
+        @include adaptive("sm"){
+          font-size: 14px;
+        }
+        @include adaptive("xsm"){
+          font-size: 16px;
+          margin-top: 30px;
+        }
+      }
+    }
+
+    &:nth-child(2){
+      align-self: stretch;
+      width: 50%;
+      position: relative;
+      margin-left: 20px;
+      img {
+        object-fit: cover;
+        position: absolute;
+        max-width: 100%;
+        height: 100%;
+        right: 0;
+      }
+
+      @include adaptive("xsm"){
+        display: none;
+      }
+    }
+  }
+}

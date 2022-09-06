@@ -1,0 +1,57 @@
+@import "@gstyle/mixin";
+
+.slider_arrow {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transform: translateY(calc(-50% - 10px));
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+
+  &_disabled {
+    opacity: .2;
+  }
+
+  @include adaptive("md"){
+    display: none;
+  }
+}
+
+.next_arrow {
+  right: -40px;
+
+}
+
+.prev_arrow {
+  img{
+    transform: rotate(-180deg);
+  }
+  left:-40px;
+
+}
+
+.slider_wrapper {
+  position: relative;
+  z-index: 200;
+}
+
+.scrollbar_disabled {
+  display: none;
+}
+
+.slider {
+  padding-bottom: 20px;
+
+  @include adaptive("xxsm"){
+    padding-bottom: 10px;
+  }
+}

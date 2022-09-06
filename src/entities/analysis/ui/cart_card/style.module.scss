@@ -1,0 +1,86 @@
+@import "@gstyle/mixin";
+
+.card{
+  justify-content: space-between;
+  background: #E8F4FF;
+
+  &_stock {
+    background: #FFE8F0;
+  }
+}
+
+.not_performed {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+
+  &_alert {
+    padding: 18px;
+
+    border-radius: 0 0 7px 7px;
+
+    &_buttons {
+      margin-top: 16px;
+      @include adaptive("xxsm"){
+        justify-content: space-between;
+      }
+      button {
+        padding-left: 24px !important;
+        padding-right: 24px !important;
+      }
+
+      button:first-child{
+        @include adaptive("xxsm"){
+          flex-grow: 1;
+        }
+      }
+      button:nth-child(2){
+        margin-left: 20px;
+
+        @include adaptive("xxsm"){
+          margin-left: 10px;
+        }
+      }
+    }
+
+    &_dialog {
+      p {
+        margin-left: 20px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        /* or 129% */
+
+
+        color: #FC4483;
+      }
+    }
+
+    & > div {
+      display: flex;
+      align-items: center;
+    }
+
+    &_pink {
+      background: #FFE8F0;
+    }
+
+    &_blue {
+      background: #E8F4FF;
+    }
+  }
+}
+
+.not_performed_pink {
+  background: #FF6298 !important;
+  * {
+    color: white !important;
+  }
+}
+
+.not_performed_blue {
+  background: #0187FC !important;
+  * {
+    color: white !important;
+  }
+}

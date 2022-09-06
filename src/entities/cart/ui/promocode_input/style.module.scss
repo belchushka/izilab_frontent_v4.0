@@ -1,0 +1,7 @@
+.body {
+  & > p {
+    color: #0187FC;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4f741c10-a38a-4074-86ed-ea8d6f080f2c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/craco.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/declaration.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/App.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/http/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/store/hooks.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/store/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/styles/fonts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/styles/global.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/styles/include/_normalize.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/styles/include/_reset.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/styles/mixin.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/styles/variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/react.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contexts/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contexts/modal_context/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contexts/order_navigation_context/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/analysis/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/analysis/model/actions/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/analysis/model/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/analysis/model/reducer/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/analysis/ui/card/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/analysis/ui/card/style.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/analysis/ui/cart_card/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/analysis/ui/cart_card/style.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/analysis/ui/gift_card/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/analysis/ui/gift_card/style.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/analysis/ui/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/analysis/ui/lib/check_card_type.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/analysis/ui/lib/count_stock_endtime.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/cart/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/cart/model/actions/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/cart/model/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/cart/model/reducer/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/cart/ui/cart_sumup/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/cart/ui/cart_sumup/style.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/cart/ui/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/cart/ui/promocode_input/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/cart/ui/promocode_input/style.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/category/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/category/ui/category_slider_picker/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/category/ui/category_slider_picker/style.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/category/ui/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/city/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/city/model/actions/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/city/model/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/city/model/reducer/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/city/ui/city_form_control/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/city/ui/city_form_control/style.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/city/ui/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/navigation/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/office/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/office/model/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/office/model/reducer/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/office/ui/address_form_control/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/office/ui/address_form_control/style.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/office/ui/date_form_control/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/office/ui/date_form_control/style.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/office/ui/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/office/ui/map/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/office/ui/map/style.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/office/ui/office_card/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/office/ui/office_card/style.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/promocode/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/promocode/model/actions/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/promocode/model/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/promocode/model/reducer/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/user/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/user/model/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/user/model/reducer/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/modals/analysis_modal/components/complex_inner/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/modals/analysis_modal/components/complex_inner/style.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/modals/analysis_modal/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/modals/analysis_modal/ui/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/modals/analysis_modal/ui/style.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/modals/city_select_modal/components/letter/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/modals/city_select_modal/components/letter/style.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/modals/city_select_modal/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/modals/city_select_modal/ui/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/modals/city_select_modal/ui/style.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/modals/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/modals/office_modal/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/modals/office_modal/ui/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/modals/office_modal/ui/style.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/modals/support_modal/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/modals/support_modal/ui/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/modals/support_modal/ui/style.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/payment_form/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/payment_form/ui/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/payment_form/ui/style.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/personal_info_form/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/personal_info_form/lib/validate.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/personal_info_form/ui/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/personal_info_form/ui/style.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/search/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/search/ui/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/search/ui/style.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/visit_form/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/visit_form/ui/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/visit_form/ui/style.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/analysis/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/analysis/ui/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/analysis/ui/style.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/cart/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/cart/ui/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/cart/ui/style.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/landing/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/landing/ui/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/landing/ui/style.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/order/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/order/ui/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/order/ui/style.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/payment/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/payment/ui/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/payment/ui/style.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/personal_info/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/personal_info/ui/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/personal_info/ui/style.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/api/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/icons/alert_sign.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/icons/allergy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/icons/arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/icons/bear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/icons/blood.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/icons/bomb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/icons/burger_menu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/icons/butterfly.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/icons/calendar.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/icons/category_doctor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/icons/city_modal_cross_lg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/icons/cloud.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/icons/covid.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/icons/cross.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/icons/diamond.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/icons/dna.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/icons/document.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/icons/done.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/icons/file.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/icons/file_filled.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/icons/fire.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/icons/gift_icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/icons/heart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/icons/inst_icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/icons/lemon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/icons/location_triangle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/icons/lupa.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/icons/map_pointer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/icons/microscope.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/icons/microscope.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/icons/nvigation_arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/icons/office.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/icons/office.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/icons/onicomarkers.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/icons/pill.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/icons/pregnaancy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/icons/search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/icons/slider_arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/icons/small_cross.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/icons/sport.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/icons/telegram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/icons/tg_icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/icons/vk_icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/icons/whatsapp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/icons/ws_icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/images/advantage1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/images/advantage2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/images/advantage3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/images/advantage4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/images/doctor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/images/empty_cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/images/empty_search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/images/like_doctor.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/images/payment_error.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/images/payment_success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/images/screen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/data/dummy_categories.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/data/dummy_links.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/data/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/hooks/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/hooks/useAgeLimit.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/hooks/useCart.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/hooks/useDebounce.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/hooks/useEffectAfterMount.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/hooks/useLoading.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/hooks/useSearch.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/hooks/useWindow.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/lib/count_cart_alerts.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/lib/count_cart_price.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/lib/count_stacks.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/lib/decl_of_num.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/lib/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/animate_wrapper/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/block_header/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/block_header/style.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/button/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/button/style.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/checkbox/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/checkbox/style.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/component_animate_wrapper/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/container_component/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/container_component/style.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/empty_block/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/empty_block/style.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/faq_question/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/faq_question/style.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/feedback_comment/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/feedback_comment/style.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/file_drag/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/file_drag/ui/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/file_drag/ui/style.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/gift_progress/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/gift_progress/style.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/input/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/input/style.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/loader/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/loader/style.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/modal/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/modal/style.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/payment_status_modal/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/payment_status_modal/ui/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/payment_status_modal/ui/style.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/price_button/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/select/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/select/style.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/separator/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/separator/style.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/social_button/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/social_button/style.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/support_modal_text/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/support_modal_text/style.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/warning/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/warning/style.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/analysis_list/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/analysis_list/ui/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/analysis_list/ui/style.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/cart_analysis/components/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/cart_analysis/components/sampling_card/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/cart_analysis/components/sampling_card/style.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/cart_analysis/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/cart_analysis/ui/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/cart_analysis/ui/style.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/cart_gifts/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/cart_gifts/ui/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/cart_gifts/ui/style.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/category_slider/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/category_slider/ui/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/category_slider/ui/style.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/landing/about/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/landing/about/ui/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/landing/about/ui/style.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/landing/advantages/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/landing/advantages/ui/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/landing/advantages/ui/style.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/landing/banner/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/landing/banner/ui/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/landing/banner/ui/style.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/landing/desktop_navigation/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/landing/desktop_navigation/ui/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/landing/desktop_navigation/ui/style.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/landing/faq/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/landing/faq/ui/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/landing/faq/ui/style.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/landing/feedback/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/landing/feedback/ui/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/landing/feedback/ui/style.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/landing/footer/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/landing/footer/ui/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/landing/footer/ui/style.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/landing/header/components/header_location/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/landing/header/components/header_location/style.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/landing/header/components/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/landing/header/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/landing/header/ui/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/landing/header/ui/style.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/landing/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/landing/service/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/landing/service/ui/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/landing/service/ui/style.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/landing/side_menu/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/landing/side_menu/ui/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/landing/side_menu/ui/style.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/step_bar/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/step_bar/ui/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/step_bar/ui/style.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react-app-env.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2EOBFzZI6MjDFVS2LWB0IEu9v3u" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Project.color": "2c003c",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/belchushka/Documents/izilab/izilab_frontendv4.0",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "/Users/belchushka/Documents/izilab/izilab_frontendv4.0/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4f741c10-a38a-4074-86ed-ea8d6f080f2c" name="Changes" comment="" />
+      <created>1662456650161</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1662456650161</updated>
+      <workItem from="1662456651879" duration="1989000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

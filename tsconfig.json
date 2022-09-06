@@ -18,9 +18,16 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "baseUrl": "./src",
+    "paths": {
+      "@box/*": ["./*"],
+      "@gstyle/*": ["./app/styles/*"],
+      "@assets/*": ["./shared/assets/*"]
+    }
   },
   "include": [
-    "src"
+    "src",
+    "declaration.d.ts"
   ]
 }

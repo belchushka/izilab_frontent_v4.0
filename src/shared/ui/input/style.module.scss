@@ -1,0 +1,128 @@
+@import "@gstyle/mixin";
+
+.input {
+  font-weight: 400;
+  font-size: 16px;
+  width: 100%;
+  color: black;
+  background: #F9FCFF;
+  border: 1px solid rgba(68, 86, 102, 0.45);
+  border-radius: 7px;
+  padding: 12px 15px;
+  transition: .2s;
+
+  &_error {
+    border: 1px solid #FC4483 !important;
+  }
+
+  &::-webkit-input-placeholder {
+    color: #878787;
+
+  }
+
+  &_search {
+    background: #F9FCFF;
+    width: 100%;
+    border:1px solid #44566673;
+    &_active {
+      padding-left:50px ;
+    }
+  }
+}
+.search_input_wrapper {
+  position: relative;
+
+  &_search_icon {
+    width: 19px;
+    height: 19px;
+    position: absolute;
+    top: 50%;
+    left:15px;
+    transform: translateY(-50%);
+    z-index: 2;
+  }
+
+  &_calendar_icon {
+    height: 22px;
+    width: 22px;
+    cursor: pointer;
+  }
+}
+
+.calendar_input {
+  &_calendar_wrapper {
+    position: absolute;
+    top: calc(100% + 10px);
+    z-index: 800;
+    border-radius: 7px;
+    left: -1px;
+    border: 1px solid rgba(0, 0, 0, 0.23);
+    overflow: hidden;
+
+    @include adaptive("xxsm"){
+      width: 100%;
+    }
+    &_calendar {
+
+    }
+  }
+}
+
+
+
+.button_input{
+  border: none;
+  padding: 0;
+
+  &_wrapper {
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    height: 45px;
+    align-items: center;
+    color: #878787;
+    transition: .2s;
+  }
+
+  &_text {
+    width: 50%;
+    align-self: stretch;
+    border-radius: 8px 0 0 8px;
+    display: flex;
+    align-items: center;
+    div {
+      width: 100%;
+    }
+    input {
+      display: block;
+      width: 100%;
+      border-top-right-radius:0 ;
+      border-bottom-right-radius:0 ;
+      background: white;
+    }
+  }
+
+  &_btn {
+    width: 50%;
+    background: #0187FC;
+    height: 100%;
+    border-radius: 0 8px 8px 0;
+    border: 1px solid #0187FC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+
+    &_active {
+      background: #FF6298;
+      border: 1px solid #FF6298;
+
+    }
+
+    &_disabled {
+      opacity: 0.6;
+
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.letter {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #0187FC;
+  transition: .2s;
+  box-shadow: 1px 2px 2px 2px rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+
+  &_active {
+    background: #FC4483;
+    color: white;
+    box-shadow: none;
+  }
+}

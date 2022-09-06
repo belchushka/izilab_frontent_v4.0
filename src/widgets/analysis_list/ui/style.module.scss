@@ -1,0 +1,57 @@
+@import "@gstyle/mixin.scss";
+
+.analysis_list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -20px;
+
+  @include adaptive("md"){
+    margin-left: -16px;
+  }
+
+  &_show_more {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 30px;
+    color: #0187FC;
+  }
+
+  &_card {
+    width: calc(100% / 4 - 20px);
+    margin-left: 20px;
+    margin-top: 20px;
+
+    @include adaptive("md"){
+      width: calc(100% / 3 - 16px);
+      margin-left: 16px;
+      margin-top: 16px;
+    }
+
+    @include adaptive("sm"){
+      width: calc(100% / 2 - 16px);
+    }
+
+    @include adaptive("xsm"){
+      width: 100%;
+
+    }
+
+  }
+}
+
+.totalFound {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 22px;
+  /* identical to box height, or 147% */
+  letter-spacing: 0.12px;
+
+  color: #423A3A;
+  text-align: center;
+}

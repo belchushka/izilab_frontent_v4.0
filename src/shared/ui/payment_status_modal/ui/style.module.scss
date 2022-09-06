@@ -1,0 +1,43 @@
+@import "@gstyle/mixin.scss";
+
+.modal_body {
+  max-width: 714px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  @include adaptive("xsm"){
+    justify-content: center;
+  }
+
+  h4 {
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 20px;
+    /* or 100% */
+
+    text-align: center;
+
+    color: #423A3A;
+  }
+
+  & > p {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* or 100% */
+
+    text-align: center;
+
+    color: #423A3A;
+  }
+}
+
+.button {
+  margin-top: 45px;
+  max-width: 250px !important;
+  width: 100%;
+}

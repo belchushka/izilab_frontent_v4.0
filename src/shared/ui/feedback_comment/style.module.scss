@@ -1,0 +1,42 @@
+@import "@gstyle/variables";
+@import "@gstyle/mixin";
+
+.comment_body {
+  text-align: center;
+  font-family: 'Arial';
+  max-width: 720px;
+  width: 100%;
+  margin: auto;
+  padding: 0 50px;
+  padding-bottom: 60px;
+  color:$black
+}
+
+.comment_text {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.55;
+
+  @include adaptive("md"){
+    font-size: 18px;
+  }
+
+  @include adaptive("xsm"){
+    font-size: 16px;
+  }
+}
+
+.comment_name {
+  font-size: 22px;
+  margin-top: 20px;
+  font-weight: 600;
+
+  @include adaptive("md"){
+    font-size: 20px;
+  }
+
+  @include adaptive("xsm"){
+    font-size: 18px;
+    font-weight: 600;
+  }
+}

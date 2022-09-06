@@ -1,0 +1,20 @@
+@import "@gstyle/mixin";
+
+.container {
+  background: #f7f7f7;
+  padding: 50px 0;
+
+  &_wrapper {
+    padding: 0 20px;
+  }
+
+  &_questions {
+    max-width: 620px;
+    margin: auto;
+    margin-top: 50px;
+
+    @include adaptive("xxsm"){
+      width: 100%;
+    }
+  }
+}

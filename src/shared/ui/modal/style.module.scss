@@ -1,0 +1,59 @@
+@import "@gstyle/mixin.scss";
+
+.modal_wrapper {
+  z-index: 10000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  background: #393B498C;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 20px;
+  @include adaptive("xsm") {
+    padding: 0;
+  }
+}
+
+.modal_body {
+  background: white;
+  padding: 31px;
+  padding-bottom: 55px;
+  border-radius: 7px;
+  width: 100%;
+  max-height: 100%;
+  overflow: auto;
+
+  @include adaptive("xsm") {
+    max-height: unset !important;
+    height: 100%;
+    border-radius: 0;
+  }
+
+  &_cross {
+    display: flex;
+    justify-content: flex-end;
+
+    img {
+      filter: brightness(1%);
+      width: 20px;
+      height: 20px;
+      transform: rotate(45deg);
+      cursor: pointer;
+    }
+  }
+}
+
+.modal_optional {
+  border-radius: 0;
+  padding: 0;
+
+  &_head {
+    padding: 27px 30px;
+    background: #0187fc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}

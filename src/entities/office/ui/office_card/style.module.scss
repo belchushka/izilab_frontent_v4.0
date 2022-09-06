@@ -1,0 +1,28 @@
+.body {
+  padding: 15px;
+  padding-bottom: 30px;
+  cursor: pointer;
+  * {
+    color: #0187FC
+  }
+
+  &_active {
+    background: #0187FC;
+    * {
+      color: white;
+    }
+  }
+  &_head {
+    display: flex;
+    align-items: flex-end;
+    h5 {
+      margin-left: 20px;
+    }
+  }
+
+  p {
+    margin-top: 18px;
+  }
+
+  border-bottom: 1px solid #E5E5E5;
+}

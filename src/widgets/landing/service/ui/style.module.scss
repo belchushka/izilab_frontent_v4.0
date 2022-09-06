@@ -1,0 +1,116 @@
+@import "@gstyle/variables";
+@import "@gstyle/mixin";
+
+.service_wrapper {
+
+  &_content {
+    margin-top: 30px;
+
+    &_link {
+      color: #ff8562;
+      font-size: 26px;
+      text-align: center;
+      margin: auto;
+      display: block;
+      @include adaptive("md") {
+        font-size: 22px;
+      }
+
+      @include adaptive("xsm") {
+        font-size: 20px;
+        width: 460px;
+      }
+
+      @include adaptive("xxsm") {
+        font-size: 15px;
+        width: 300px;
+      }
+
+    }
+
+    &_info {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 60px;
+
+      @include adaptive("sm") {
+        flex-wrap: wrap;
+      }
+
+      &_block:first-child {
+        width: 35%;
+        @include adaptive("sm") {
+          width: 100%;
+        }
+
+        h5 {
+          font-size: 28px;
+          line-height: 1.17;
+          font-weight: 600;
+          color: $black;
+
+          @include adaptive("md") {
+            font-size: 26px;
+          }
+
+          @include adaptive("xsm") {
+            font-size: 24px;
+          }
+        }
+
+        p {
+          font-family: Arial;
+          font-size: 20px;
+          font-weight: 300;
+          color: rgb(61, 61, 61);
+          line-height: 1.55;
+
+          @include adaptive("md") {
+            font-size: 18px;
+          }
+
+          @include adaptive("xsm") {
+            font-size: 16px;
+            line-height: 1.45;
+          }
+
+        }
+
+        p:nth-child(2) {
+          color: rgb(246, 9, 157);
+          font-weight: 700;
+          margin: 20px 0;
+        }
+
+      }
+
+      &_block:nth-child(2) {
+        width: 60%;
+        align-self: stretch;
+        position: relative;
+
+        @include adaptive("sm") {
+          width: 100%;
+          margin-top: 40px;
+          &:before {
+            content: "";
+            display: block;
+            padding-bottom: 100%;
+          }
+        }
+
+
+      }
+
+      &_block {
+        &_map {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+}

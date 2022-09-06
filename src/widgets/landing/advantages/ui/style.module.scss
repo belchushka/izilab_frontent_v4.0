@@ -1,0 +1,82 @@
+@import "@gstyle/mixin";
+
+.advantages {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -50px;
+  margin-top:80px;
+
+  @include adaptive("sm"){
+    margin-left: -80;
+  }
+
+
+  @include adaptive("xxsm"){
+    margin-left: 0;
+    margin-top:30px;
+  }
+
+  .advantage {
+    width: calc(100% / 4 - 50px);
+    margin-left: 50px;
+
+    @include adaptive("sm"){
+      width: calc(100% / 2 - 80px);
+      margin-left: 80px;
+    }
+
+    @include adaptive("xxsm"){
+      width: 100%;
+      margin-left: 0;
+      display: flex;
+      margin-top: 30px;
+    }
+    img {
+      width: 70%;
+      margin: auto;
+      display: block;
+      @include adaptive("xxsm"){
+        width: 30%;
+        margin-right: 20px;
+      }
+    }
+
+    h5 {
+      color: #3d3d3d;
+      font-size: 20px;
+      font-family: 'Arial',Arial,sans-serif;
+      line-height: 1.55;
+      font-weight: 700;
+      margin:5px 0 10px 0;
+
+      @include adaptive("md"){
+        font-size: 18px;
+      }
+
+      @include adaptive("xsm"){
+        font-size: 16px;
+      }
+
+      @include adaptive("xxsm"){
+        font-size: 14px;
+      }
+
+    }
+
+    p {
+      color: #3d3d3d;
+      font-size: 16px;
+      font-family: 'Arial',Arial,sans-serif;
+      line-height: 1.55;
+      font-weight: 400;
+
+      @include adaptive("md"){
+        font-size: 14px;
+      }
+
+      @include adaptive("xsm"){
+        font-size: 12px;
+      }
+    }
+  }
+}

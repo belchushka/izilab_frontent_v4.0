@@ -1,0 +1,19 @@
+@import "@gstyle/mixin.scss";
+
+.gifts {
+  display: flex;
+  margin-left: -20px;
+  flex-wrap: wrap;
+  margin-top: -20px;
+  @include adaptive("sm") {
+    margin-left: -10px;
+  }
+}
+
+.gift {
+  width: calc(100% / 3 - 20px);
+  margin-top: 20px;
+  @include adaptive("xxsm"){
+    width: 100% !important;
+  }
+}

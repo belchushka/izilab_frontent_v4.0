@@ -1,0 +1,70 @@
+.order_details {
+  padding: 20px 30px;
+  border: 1px solid #44566673;
+  border-radius: 7px;
+
+  &_list {
+    margin-top: 14px;
+
+    &_inner {
+      margin-top: 7px;
+      display: flex;
+      justify-content: space-between;
+
+
+      &_stock {
+        color: #0187FC !important;
+      }
+
+      p {
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 17px;
+        /* identical to box height, or 113% */
+
+
+        color: #414770;
+
+      }
+
+      &_total {
+        p {
+          font-weight: 700;
+          font-size: 16px;
+        }
+
+        &_price {
+          display: flex;
+          align-items: center;
+
+          p {
+            font-weight: 600;
+            font-size: 20px;
+            color: #423A3A;
+          }
+
+          span {
+            font-family: 'Arial';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            text-decoration: line-through;
+            color: #666666;
+            margin-right: 10px;
+          }
+        }
+      }
+    }
+  }
+
+  h4 {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #414770;
+  }
+}

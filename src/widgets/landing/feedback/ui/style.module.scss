@@ -1,0 +1,62 @@
+@import "@gstyle/mixin";
+
+.container {
+  padding-bottom: 60px;
+  padding-left: 30px;
+  padding-right: 30px;
+
+  @include adaptive("xxsm"){
+    padding-left:10px;
+    padding-right: 10px;
+  }
+
+  &_slider {
+    margin-top: 80px;
+  }
+}
+
+.slide_subtitle {
+  * {
+    color: #3d3d3d !important;
+
+  }
+  font-family: 'Arial';
+  font-weight: 300;
+  font-size: 14px;
+  margin-top: 10px;
+
+  @include adaptive("md"){
+    font-size: 12px;
+  }
+}
+
+.slider_arrow {
+  background-color: #eee;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transform: translateY(calc(-50% - 30px));
+  position: absolute;
+  top: 50%;
+  z-index: 900;
+  img {
+    width: 50%;
+    height: 50%;
+  }
+}
+
+.next_arrow {
+  right: 0;
+}
+
+.prev_arrow {
+  img{
+    transform: rotate(-180deg);
+  }
+
+
+}
